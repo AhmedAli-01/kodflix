@@ -5,6 +5,7 @@
 img {
   width: 50%;
   
+<<<<<<< HEAD
 }
 .header {
   display: flex;
@@ -13,3 +14,6 @@ img {
 .headerItems {
   flex: 1;
   }
+=======
+}
+>>>>>>> madechanges
