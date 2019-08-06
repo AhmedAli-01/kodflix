@@ -1,31 +1,28 @@
 import React from "react";
-import javascriptLogo from "./javascript-logo.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <img src={javascriptLogo} alt="JavaScript Logo" />
-      <br /> <br /> <br />
       <div className="header">
         <div className="headerItems">
           {" "}
           <img
-            src="https://img.moviepostershop.com/titanic-movie-poster-1997-1020339699.jpg"
+            src="https://www.onthisday.com/images/articles/titanic-the-movie.jpg"
             alt="Titnic Movie Cover"
           />{" "}
         </div>
         <div className="headerItems">
           {" "}
           <img
-            src="https://i.pinimg.com/236x/1d/42/8f/1d428fc1bb6d2c3528c02753d6b3559e--james-cameron-james-darcy.jpg"
+            src="https://i.pinimg.com/originals/0c/c6/e0/0cc6e0968907c35cfc0804703e0aa864.jpg"
             alt="Avator Movie Cover"
           />{" "}
         </div>
         <div className="headerItems">
           {" "}
           <img
-            src="https://i.pinimg.com/originals/50/b8/97/50b8973ec083d449d20b73222f2b2d56.jpg"
+            src="http://img.fruugo.com/product/9/21/77786219_max.jpg"
             alt="Titnic Movie Cover"
           />{" "}
         </div>
@@ -34,21 +31,21 @@ function App() {
         <div className="headerItems">
           {" "}
           <img
-            src="https://img.moviepostershop.com/titanic-movie-poster-1997-1020339699.jpg"
+            src="https://cover4theatre.com/wp-content/uploads/2019/01/1025445PL.jpg"
             alt="Titnic Movie Cover"
           />{" "}
         </div>
         <div className="headerItems">
           {" "}
           <img
-            src="https://img.moviepostershop.com/titanic-movie-poster-1997-1020339699.jpg"
+            src="https://ae01.alicdn.com/kf/HTB11SV6HQyWBuNjy0Fpq6yssXXaN/The-poster-of-the-movie-black-panther-painted-by-the-white-gaoqing-daily.jpg"
             alt="Titnic Movie Cover"
           />{" "}
         </div>
         <div className="headerItems">
           {" "}
           <img
-            src="https://img.moviepostershop.com/titanic-movie-poster-1997-1020339699.jpg"
+            src="https://i.pinimg.com/originals/81/80/80/81808030e12ac294c5d43a3905f78274.jpg"
             alt="Titnic Movie Cover"
           />{" "}
         </div>

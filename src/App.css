@@ -1,13 +1,10 @@
 .App {
   text-align: center;
 }
-
-img {
-  width: 50%;
-}
 .header {
   display: flex;
 }
 .headerItems {
   flex: 1;
+  padding: 30px;
 }
