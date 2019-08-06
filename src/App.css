@@ -4,12 +4,10 @@
 
 img {
   width: 50%;
-  
 }
 .header {
   display: flex;
-  
 }
 .headerItems {
   flex: 1;
-  }
+}
