@@ -1,10 +1,17 @@
 .App {
   text-align: center;
 }
-.header {
+.container {
   display: flex;
+  width: 100%;
 }
 .headerItems {
   flex: 1;
   padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
 }
