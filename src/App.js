@@ -17,7 +17,7 @@ function App() {
       <div className="headerItems"> <img src="https://img.moviepostershop.com/titanic-movie-poster-1997-1020339699.jpg" alt="Titnic Movie Cover"></img>  </div>
       <div className="headerItems"> <img src="https://img.moviepostershop.com/titanic-movie-poster-1997-1020339699.jpg" alt="Titnic Movie Cover"></img>  </div>
       <div className="headerItems"> <img src="https://img.moviepostershop.com/titanic-movie-poster-1997-1020339699.jpg" alt="Titnic Movie Cover"></img>  </div>
-      <p> hi there</p>
+      
      </div>
     </div>
   );
