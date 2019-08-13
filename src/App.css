@@ -1,5 +1,7 @@
 img {
   width: 100%;
+  height: 100%;
+  display: block;
   
 }
 
@@ -13,9 +15,8 @@ img {
 .item {
   overflow: hidden;
   flex: 1;
-  padding: 5px;
   position: relative;
-  border: 2px solid blueviolet;
+  
   
 }
 .overlay {
