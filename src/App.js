@@ -11,7 +11,6 @@ function App() {
       <div className="App">
         <Route exact path="/" component={Gallery} />
         <Route exact path="/details" component={Details} />
-        <Link to='details'> go to Gallery</Link>
       </div>
     </Router>
   );
