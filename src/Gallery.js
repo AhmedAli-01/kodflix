@@ -11,14 +11,12 @@ export default function Gallery(){
     return ( 
     <>
       <div className="container">
-          <Stack name="The Blind Side" logo={theblindside} />
-          <Stack name="Avatar" logo={avatar} />
-          <Stack name="Titanic" logo={titanic} />
-      </div>
-      <div className="container">
-          <Stack name="Black Panther" logo={blackpanther} />
-          <Stack name="Game of thrown" logo={gameofthrone} />
-          <Stack name="Hobb & Shaw" logo={hobbsshaw} />
+          <Stack id='blind-side' name="The Blind Side" logo={theblindside} />
+          <Stack id='avatar' name="Avatar" logo={avatar} />
+          <Stack id='titanic' name="Titanic" logo={titanic} />
+          <Stack id='black-panther' name="Black Panther" logo={blackpanther} />
+          <Stack id='game-of-throne' name="Game of thrown" logo={gameofthrone} />
+          <Stack id='hobbs-shaw' name="Hobb & Shaw" logo={hobbsshaw} />
       </div> 
     </>
     );

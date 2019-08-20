@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 export default function Stack(prop) {
     return (
-      <Link to='/details'>
+      <Link to={`/${prop.id}`}>
       <div className="item">
         <img src={prop.logo} alt={`${prop.name} logo`} />
         <div className="overlay">
