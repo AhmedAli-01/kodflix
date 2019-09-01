@@ -10,6 +10,7 @@ img {
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 10px;
   width: 100%;
 }
 .item {

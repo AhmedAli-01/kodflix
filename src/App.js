@@ -1,6 +1,6 @@
 import React from "react";
 import Gallery from "./Gallery";
-import Details from "./Details";
+import Details from "./Details/Details";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NotFound from './NotFound';
 
