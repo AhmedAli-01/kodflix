@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
 import getMovies from './Gallery-get';
 
 
@@ -20,11 +20,17 @@ export default class Details extends Component {
     }
 
     render () {
-        return (
-            <>
-                <h1>{this.state.movie.name}</h1>
-                <Link to='/'>  Back to home  </Link>
-            </>
-        );
+        if(this.state.movie === undefined) {
+            return <Redirect to='./not-found' />;
+        } else {
+
+            return (
+                <>
+                    <h1>{this.state.movie.name}</h1>
+                    <Link to='/'>  Back to home  </Link>
+                </>
+            );
+        }
+        
     }
 }
