@@ -1,7 +1,7 @@
 const express = require('express');
 const shows = require('./shows')
 const app = express()
-const port = 7777
+const port = 3001
 
 app.get('/', (req, res) => res.send('Hello World!'));
 app.get('/rest/shows', (req, res) => res.send(shows()));
